@@ -23,8 +23,7 @@ daspect([1 1 1]);
 colormap(subplot(1, 2, 2), 'jet'); 
 colorbar; 
 title('Display of the Logarithmic Amplitude of FFT');
-% 在图像中，低频分量通常包含图像的大部分能量，而高频分量则包含一些细节和变化。
-% 因此，FFT的低频系数通常具有较高的值，而高频系数通常较小。
+
 
 %%%%%%%%%% (b) %%%%%%%%%%
 % Create an artificial image of a grid of impulses
